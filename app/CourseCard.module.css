@@ -1,0 +1,73 @@
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 330px;
+  position: relative;
+  background-color: rgb(240,251,252);
+
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  position: absolute;
+  top: 80%; 
+  left: 30%;
+  transform: translateX(-20%);
+  display: flex;
+  gap: 2px;
+  border-radius: 5px;
+
+}
+
+.readMore, .joinNow {
+  background-color: #00c4cc;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 5px; 
+
+}
+
+.content {
+  padding: 15px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.rating {
+  color: rgb(0,196,204);
+  font-size: 20px;
+}
+
+.description {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author, .duration, .students {
+  font-size: 0.9em;
+  color: #777;
+  align-items: center;
+  gap: 3px;
+  display: flex;
+}
